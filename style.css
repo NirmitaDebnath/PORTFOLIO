@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Prompt", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  /* displaying the logo and the home buttons in a line using flex */
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+}
+body {
+  /* setting the whole background colour; */
+  background-color: rgba(249, 229, 202, 0.747);
+}
+.title {
+  /* setting all the tiles of the sections background colour */
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
+  background-color: hwb(48 14% 0%);
+  font-size: 50px;
+  padding-left: 150px;
+}
+
+header {
+  /* changing the pointer whwn in header part,its background height width */
+  background-color: hsla(286, 63%, 84%, 0.281);
+  width: 100%;
+  height: 180px;
+  padding: auto;
+  cursor: pointer;
+}
+nav ul {
+  /* alligning all the lists in the navigation bar */
+  margin: 50px;
+  display: flex;
+  justify-content: right;
+}
+nav ul li{
+  list-style: none;
+  margin: 10px 10px 110px 20px; 
+  padding: 5px 5px 30px 5px; 
+  display: inline-block;
+  /* used to make the elements id the list in a single line */
+
+}
+nav ul li a{
+  text-decoration: none;
+   font-weight: bold;
+  color: black;
+  cursor: pointer;
+ }
+nav ul li a:hover{
+color: #ff008c;
+ }
+.left {
+  /* the hi part divided into left and right  */
+  background-color: rgb(212, 189, 227);
+  width: 40%;
+  margin: 60px;
+  font-size: 50px;
+  text-align: center;
+}
+div.right {
+  /* this is the right side of the section the profile pic and the name */
+
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.hi {
+  /* creation */
+  display: flex;
+  height: 650px;
+  justify-content: space-around;
+  text-align: center;
+}
+.nd {
+  /* the profile image */
+  padding: 0 100px 0 50px;
+  width: 400px;
+  justify-content: space-around;
+}
+.pro {
+  /* the contact profiles  */
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.pro li {
+  background-color: aqua;
+}
+section {
+  /* making all sections move at the center */
+  text-align: center;
+  font-size: 30px;
+  }
+  #abouteducation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .sec3{
+    display: flex;
+    justify-content: space-around;
+  }
+.left1{
+  width: 33%;
+  background-color: rgb(180, 200, 198);
+  font-weight: 900;
+  font-size: 25px;
+margin-left: 120px;
+margin-top: 20px;
+margin-bottom: 20px;
+  text-align: left;
+  padding: 60px;
+}
+div.right1{
+  text-align: left;
+  background-color: rgb(236, 180, 200);
+  width: 30%;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.workprofile{
+  display: flex;
+  justify-content: space-around;
+}
+.left2{
+  width: 80%;
+  background-color: rgba(173, 174, 237, 0.737);
+  font-weight: 900;
+  font-size: 20px;
+margin-left: 0px;
+margin-top: 60px;
+margin-bottom: 0;
+  text-align: left;
+  padding: 90px;
+}
+.right2{
+  text-align: left;
+  background-color: rgb(231, 181, 127);
+  width: 5%;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-right: 60px;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#profiles{
+  text-align: right;
+  padding-right: 30px;
+}
+footer{
+  background-color: hsla(286, 63%, 84%, 0.281);
+  width: 100%;
+  height: 80px;
+  padding: auto;
+  cursor: pointer;
+  border: solid;
+}
+.con
+{
+  background-color: rgba(173, 174, 237, 0.737);
+  font-size: 25;
+  text-align: center;
+  padding: 40px;
+  font-weight: bold;
+
+}
+.right2 ul li{
+  list-style: none;
+}
+.right2 ul li a{
+  text-decoration: none;
+  cursor: pointer;
+ }
+.right2 ul li a:hover{
+color: #ff008c;
+ }
+ #navop li a {
+  position: relative;
+  text-decoration: none;
+}
+
+#navop li a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+#navop li a:hover::after {
+  transform: scaleX(1);
+}
+footer {
+  background-color: hsla(286, 63%, 84%, 0.281);
+  width: 100%;
+  height: 80px;
+  padding: auto;
+  cursor: pointer;
+  border: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+/* Responsive Adjustments */
+
+@media only screen and (max-width: 768px) {
+  .main-banner {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left, .right, .nd {
+    width: 100%;
+    max-width: none;
+  }
+  
+  .left {
+    font-size: 40px;
+    margin: 30px;
+  }
+  
+  div.right {
+    font-size: 20px;
+    margin: 30px;
+    padding: 10px;
+  }
+  
+  .left1, .right1, .left2, .right2 {
+    width: 100%;
+    max-width: none;
+    margin: 20px;
+    padding: 30px;
+  }
+}
+.logo {
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+.right2 a{
+  padding: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+.right2 a :hover {
+  transform: scale(1.2);
+}
+.left2 a{
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.left2 a :hover {
+  transform: scale(1.2);
+}
+
