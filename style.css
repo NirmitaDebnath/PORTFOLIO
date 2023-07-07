@@ -53,7 +53,9 @@ nav ul li{
 
 }
 .logo{
-  padding: 70px;
+  padding: 20px;
+  width: 10%;
+  height: 100px;
 }
 nav ul li a{
   text-decoration: none;
@@ -178,7 +180,7 @@ margin-bottom: 0;
   cursor: pointer;
  }
 .right2 i:hover{
-color: #ff008c;
+color: #ffad15;
  }
 footer{
  width: 100%;
@@ -205,7 +207,7 @@ footer{
   cursor: pointer;
  }
 .right2 ul li a:hover{
-color: #ff008c;
+color: #f9048b;
  }
  #navop li a {
   position: relative;
