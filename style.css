@@ -7,19 +7,15 @@ html {
   scroll-behavior: smooth;
 }
 nav {
-  /* displaying the logo and the home buttons in a line using flex */
   display: flex;
   justify-content: space-around;
   height: 250px;
 }
-
 body {
   background-color: black;
   color: white;}
 .title {
-  /* setting all the tiles of the sections background colour */
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 20px ;
   text-align: left;
   font-size: 50px;
   padding-left: 150px;
@@ -31,7 +27,6 @@ body {
 }
 
 header {
-  /* changing the pointer whwn in header part,its background height width */
   background-color: black;
   width: 100%;
   height: 180px;
@@ -39,7 +34,6 @@ header {
   cursor: pointer;
 }
 nav ul {
-  /* alligning all the lists in the navigation bar */
   margin: 50px;
   display: flex;
   justify-content: right;
@@ -49,8 +43,7 @@ nav ul li{
   margin: 10px 10px 110px 20px; 
   padding: 5px 5px 30px 5px; 
   display: inline-block;
-  /* used to make the elements id the list in a single line */
-
+  
 }
 .logo{
   padding: 20px;
@@ -67,10 +60,9 @@ nav ul li a:hover{
 color: #ff008c;
  }
 .left {
-  /* the hi part divided into left and right  */
   background-color: black;
   width: 40%;
-  margin: 60px;
+  margin: 80px 0;
   font-size: 50px;
   text-align: center;
 }
@@ -81,30 +73,20 @@ div.right {
   font-size: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  margin: 40px 0;
 }
 .hi {
-  /* creation */
   background-color: black;
   display: flex;
-  height: 650px;
   justify-content: space-around;
   text-align: center;
 }
 .nd {
-  /* the profile image */
   padding: 20;
   width: 350px;
   justify-content: space-around;
 }
-.pro {
-  /* the contact profiles  */
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
-  text-align: center;
-  align-items: center;
-  cursor: pointer;
-}
+
 
 section {
   /* making all sections move at the center */
@@ -159,17 +141,9 @@ margin-bottom: 0;
   padding-bottom: 0px;
 }
 .right2{
-  text-align: left;
- width: 5%;
- background-color: #f3017a;
+  display: flex;  
   font-size: 40px;
-  margin-top: 0px;
-  margin-right: 60px;
-  margin-bottom: 0;
-  padding-top: 40px;
-  padding-bottom: 0px;
-  padding-left: 40px;
-  padding-right: 40px;
+ justify-content: center;
 }
 #profiles{
   text-align: right;
@@ -208,6 +182,7 @@ footer{
  }
 .right2 ul li a:hover{
 color: #f9048b;
+
  }
  #navop li a {
   position: relative;
@@ -260,13 +235,13 @@ footer p {
   }
   
   .left {
-    font-size: 40px;
-    margin: 30px;
+    font-size: 20px;
+    margin: 20px;
   }
   
   div.right {
-    font-size: 20px;
-    margin: 30px;
+    font-size: 15px;
+    margin: 20px;
     padding: 10px;
   }
   
@@ -293,10 +268,10 @@ footer p {
 }
 .left2 a{
   padding: 20px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 .left2 a :hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 /* Add the following code to your existing CSS file or create a new one */
 
@@ -333,22 +308,4 @@ footer p {
     margin-bottom: 20px;
   }
 }
-
-/* Tablet Styles */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Adjust the styles for tablets here */
-}
-
-/* Landscape Tablet Styles */
-@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-  /* Adjust the styles for landscape tablets here */
-}
-
-/* Mobile and Tablet Styles End */
-
-/* Desktop Styles */
-
-/* Add your existing desktop styles here */
-
-/* Desktop Styles End */
 
