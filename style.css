@@ -180,3 +180,143 @@ footer p {
 
 
 
+@media screen and (min-width: 412px) {
+  .title {
+    margin: 30px ;
+    font-size: 2vh;
+  }
+  nav ul {
+    display: flex;
+    margin: 60px 0;
+  }
+  nav ul li{
+    font-size: 10px;
+    padding: 15px;
+  }
+
+  .logo{
+    padding: 20px 0;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #e9abfe;
+  
+    }
+  .left {
+    margin: 100px 0;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .hi {
+    display: block;
+    justify-content: space-around;
+  }
+  .nd {
+    width: 300px;
+  }
+    
+  section {
+    text-align: center;
+    }
+    #abouteducation ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+    }
+    .sec3{
+      display: flex;
+      justify-content: space-around;
+    }
+  .left1{
+    padding: 20px;
+    text-align: left;
+    width: 30%;
+    font-size: 10px;
+  }
+  div.right1{
+    padding: 20px;
+    text-align: left;
+    width: 30%;
+    font-size: 10px;  
+  }
+  .workprofile{
+    display: block;
+    justify-content: space-around;
+  }
+  .right2{
+    display: flex;  
+    font-size: 30px;
+   justify-content: center;
+  }
+  .right2 i {
+    text-decoration: none;
+    cursor: pointer;
+    color: cyan;
+   }
+  .right2 i:hover{
+  color: #fa0064;
+   }
+  .right2 a{
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  .right2 a :hover {
+    transform: scale(1.2);
+  }
+  
+  .con
+  {
+    color: rgb(241, 174, 249);
+    font-size: 9px;
+    text-align: center;
+    padding: 40px;
+  
+  }
+  
+  #navop li a {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  #navop li a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff0090;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  #navop li a:hover::after {
+    transform: scaleX(1);
+  }
+  footer { 
+    font-size: 10px; 
+    height: 80px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left2{
+    width: 70%;
+    margin: 20px;
+    display: block;
+    justify-content: center;
+
+  }  
+  .left2 a{
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  .left2 a :hover {
+    transform: scale(1.2);
+  }  
+  footer p {
+    
+    text-align: center;
+  }
+}
+
