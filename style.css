@@ -180,7 +180,7 @@ footer p {
 
 
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 412px) and (max-width: 1024px) {
   .title {
     margin: 30px ;
     font-size: 2vh;
