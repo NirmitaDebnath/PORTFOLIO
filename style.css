@@ -9,7 +9,7 @@ html {
 nav {
   display: flex;
   justify-content: space-around;
-  height: 250px;
+  height: 120px;
 }
 body {
   background-color: black;
@@ -18,9 +18,16 @@ body {
   margin: 20px ;
   font-size: 7vh;
 }
-header { 
+header {
   cursor: pointer;
   height: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 100px;
+  background-color: black;
 }
 nav ul {
   display: flex;
@@ -34,14 +41,17 @@ nav ul li{
   padding: 20px 0;
   font-weight: bolder;
   font-size: 50px;
-  color: #e9abfe;
+  color: cyan;
 
   }
 .logo:hover{
-    color: cyan;
+  color:#ff0090;
      }
 .cre{
-  color: #db9cfa;
+  color: cyan;
+}
+.cr{
+  color: #fa0064;
 }
 
 nav ul li a{
@@ -54,22 +64,19 @@ nav ul li a:hover{
 color:#ff0090;
  }
 .left {
-  margin: 100px 0;
-  padding: 20px;
-  font-size: 50px;
+ padding-top: 150px;
+ padding-left: 50px;
+  font-size: 70px;
 }
-div.right {
-  margin: 40px 0;
-  padding: 20px;
 
-}
 
 .hi {
   display: flex;
   justify-content: space-around;
+  padding-top: 150px;
 }
 .nd {
-  width: 500px;
+  width: 60%;
 }
 
 
@@ -122,16 +129,14 @@ color: #fa0064;
   transform: scale(1.2);
 }
 
-.con
-{
+.con{
   color: rgb(241, 174, 249);
   font-size: 18px;
   text-align: center;
   padding: 40px;
 
 }
-
-#navop li a {
+#navop li a { 
   position: relative;
   text-decoration: none;
 }
@@ -151,12 +156,14 @@ color: #fa0064;
   transform: scaleX(1);
 }
 footer {
-
-  height: 80px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 40px;
+  background-color: black;
+  text-align: center;  
 }
 .left2{
   width: 70%;
