@@ -100,14 +100,15 @@ section {
 
 .sec3 {
   display: flex;
-  justify-content: space-around;
-  padding: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .description {
   text-align: center;
   width: 25%;
   font-size: 18px;
+  margin: 30px;
   padding: 30px;
   background: rgba(0, 255, 255, 0.139);
   backdrop-filter: blur(5px);
